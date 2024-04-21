@@ -1,0 +1,13 @@
+[Unit]
+Description=Fan control
+
+[Service]
+Type=simple
+User=root
+Group=root
+WorkingDirectory=/tmp
+ExecStart=/usr/local/bin/opi5p-pwm
+
+[Install]
+WantedBy=multi-user.target
+WantedBy=rescue.target
