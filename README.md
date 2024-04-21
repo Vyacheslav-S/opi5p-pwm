@@ -17,7 +17,7 @@ LABEL	linux-aarch64-rockchip-bsp6.1-joshua-git
 	APPEND	root=UUID=00e17a68-27a5-49e7-a3cd-23a0a6bd440d rw
 ```
 ### 2. Make an opi5p-pwm executable file
-``# chmod +x opi5p-pwm``
+``chmod +x opi5p-pwm``
 
 and copy it to /usr/local/bin/
 ### 3. Create and launch a service
